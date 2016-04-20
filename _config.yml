@@ -21,7 +21,5 @@
 #markdown: kramdown
 
 
-name:ramzinc
-markdown: redcarpet
-pygments: true
-baseurl: /ramzinc.github.io
+name: ramzinc
+markdown: kramdown
