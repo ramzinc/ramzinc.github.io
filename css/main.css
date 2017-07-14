@@ -1,41 +1,44 @@
-body{
+body
+{
 	 margin: 60px auto;
 	 width:70%;
-	background-color: #93D2EC;
-	}
+	 background-color: #93D2EC;
+}
 	 
 	 
- nav ul li 
+nav ul li 
  {
  	 font-font-family: 'helvetica','Arial','Sans-Serif';
  	 padding : 0px;
  	 list-style: none ;
-      font-weight: bold;
+	 font-weight: bold;
  }
 
  nav ul li {
- display : inline;
- margin-right: 20px;
- box-shadow: 5px 4px 8px 3px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+         display : inline;
+         margin-right: 20px;
+         box-shadow: 5px 4px 8px 3px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
    
-   a{
- text-decoration:none;
- color:#444;
+ a {
+       text-decoration:none;
+       color:#444;
 
- } 
+  } 
 
-   p{
-    font-size: 1em;
-   line-height: 1em;
-   color: #222;
- }
-footer{
+p
+  {
+       font-size: 1em;
+       line-height: 1em;
+       color: #222;
+   }
+footer
+{
 	border-top:1px solid #d5d5d5;
 	font-size: 1em;
-  margin: 12px;
-  padding: 5px;
-  box-shadow: 5px 4px 8px 3px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+	margin: 12px;
+	padding: 5px;
+	box-shadow: 5px 4px 8px 3px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
 
 ul.posts { 
@@ -54,7 +57,7 @@ ul.posts li {
    box-shadow: 5px 4px 8px 3px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
   }
  
-  footer{
+footer {
     position:absolute;
     bottom:0;
     width: 70%;
@@ -62,13 +65,17 @@ ul.posts li {
     background-color:#070B17 ;
 
   }
-  #footp{
+ #footp{
     color:#FDFAFA ;
    }
-   #email{
+ #email{
     color:#FDFAFA ;
    }
 
-   .post{
+ .post{
     padding: 3px;
    }
+ div {
+     background-color:AliceBlue;  
+
+    }
