@@ -2,8 +2,4 @@ name: Arnold Mpiima, Hard learning Inc
 source: .
 markdown: rdiscount
 permalink: /:year/:month/:day/:title
-baseurl : /
-liquid:
-   error_mode: warn
-
 theme: jekyll-theme-hacker

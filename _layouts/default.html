@@ -1,14 +1,43 @@
 <!DOCTYPE html>
  <html>
- <head>
-   	<title>{{page.title}}</title>
-        <link rel = "stylesheet" type="text/css" href = "{{site.baseurl}}/css/main.css">
+   <head>
+     <title>{{page.title}}</title>
+     <meta charset="utf-8" >
+     <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/font-awesome.min.css">
+     <link rel="stylesheet" type="text/css" href = "{{site.baseurl}}/css/main.css">
+     
    </head>
 
+   <body>
+     <header>
+       <nav>
+         <ul>
 
+	   <li><a href="{{site.baseurl}}/assets/Arnold Mpiima's Resume_without_photo.pdf" class="nav-links">RESUME</a></li>
+	   <li><a href="#" class="nav-links">MUSINGS</a></li>
+        </ul>
+      </nav>
+     </header>
 
-  <div class = "content">
-    {{ content }}
-    </div>
+     <div class="initial-div">
+       <figure class="my-image">
+       <a href="{{site.baseurl}}/index.html"><img src ="{{site.baseurl}}/assets/images/small.png"/></a>
+       <figcaption>wandering through life one mistake at a time</figcaption>
+       </figure>
 
+       {{content}}
+     </div>
+     
+
+     
+	<footer >
+		<p style = "color:#FCF7F7;">My opinions are just opinions I donot take them as anything  but personal opinions based on the information and biases I have.Im always open to changing them</p>
+                  <p id ="footp" style="color:#FDFAFgit A ;">Contact me via : 
+         	    <a href= "mailto:ramzinc101@gmail.com" id ="email">email</a>  </p> 
+
+		
+	</footer>
+</body>
+
+ 
 </html>

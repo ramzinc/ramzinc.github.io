@@ -1,28 +1,54 @@
- ---
- 
- ---
-  
-<h3> {{page.title}} </h3>
-<ul class ="post">
-{%for post in site.posts%}
-  <li><span>{{post.date | date_to_string }}</span> » <a href="{{post.url}}" title="{{post.title}}">{{post.title}}</a></li>
-{% endfor %}
-</ul>
-<!--<style type="text/css"> body {background-color:black;}</style> -->
+<!DOCTYPE html>
+ <html>
+   <head>
+     <title>Mpiima Arnold</title>
+     <meta charset="utf-8" >
+     <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+     <link rel="stylesheet" type="text/css" href = "/css/main.css">
+     
+   </head>
 
-<body>
-     <nav>
-     <ul>
-       <li><a href = "/Arnold Mpiima's Resume_without_photo.pdf">Resume</a></li>
-       <li><a href = "#">Musings</a></li>
-     </ul>
-  </nav>
+   <body>
+     <header>
+       <nav>
+         <ul>
+
+	   <li><a href="/assets/Arnold Mpiima's Resume_without_photo.pdf" class="nav-links">RESUME</a></li>
+	   <li><a href="#" class="nav-links">MUSINGS</a></li>
+        </ul>
+      </nav>
+     </header>
+
+     <div class="initial-div">
+       <figure class="my-image">
+       <a href="/index.html"><img src ="/assets/images/small.png"/></a>
+       <figcaption>wandering through life one mistake at a time</figcaption>
+       </figure>
+
+       <ul class ="posts">
   
+    <li>
+     <span ><strong>15 Jul 2017 </strong><i class="fa fa fa-angle-double-right" aria-hidden="true"></i></span><a href="/2017/07/15/An-error-of-judgement"> An Error of Judgement</a>
+    </li>
+  
+    <li>
+     <span ><strong>18 Apr 2016 </strong><i class="fa fa fa-angle-double-right" aria-hidden="true"></i></span><a href="/2016/04/18/bread-and-butter"> Changes</a>
+    </li>
+  
+</ul>
+
+     </div>
+     
+
+     
 	<footer >
-		<p style = "color:#FCF7F7;">Arnold Mpiima, student at The University of Nottingham </p>
-   <p id ="footp">Contact me via : 
-         	<a href= "mailto:ramzinc101@gmail.com" id ="email">email</a>
-     </p> 
-    
-  </footer>
+		<p style = "color:#FCF7F7;">My opinions are just opinions I donot take them as anything  but personal opinions based on the information and biases I have.Im always open to changing them</p>
+                  <p id ="footp" style="color:#FDFAFgit A ;">Contact me via : 
+         	    <a href= "mailto:ramzinc101@gmail.com" id ="email">email</a>  </p> 
+
+		
+	</footer>
 </body>
+
+ 
+</html>

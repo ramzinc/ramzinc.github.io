@@ -1,28 +1,12 @@
- ---
- 
- ---
-  
-<h3> {{page.title}} </h3>
-<ul class ="post">
-{%for post in site.posts%}
-  <li><span>{{post.date | date_to_string }}</span> » <a href="{{post.url}}" title="{{post.title}}">{{post.title}}</a></li>
-{% endfor %}
-</ul>
-<!--<style type="text/css"> body {background-color:black;}</style> -->
+---
+layout: default
+title: Mpiima Arnold 
+---
 
-<body>
-     <nav>
-     <ul>
-       <li><a href = "/Arnold Mpiima's Resume_without_photo.pdf">Resume</a></li>
-       <li><a href = "#">Musings</a></li>
-     </ul>
-  </nav>
-  
-	<footer >
-		<p style = "color:#FCF7F7;">Arnold Mpiima, student at The University of Nottingham </p>
-   <p id ="footp">Contact me via : 
-         	<a href= "mailto:ramzinc101@gmail.com" id ="email">email</a>
-     </p> 
-    
-  </footer>
-</body>
+<ul class ="posts">
+  {% for post in site.posts %}
+    <li>
+     <span ><strong>{{post.date|date_to_string}} </strong><i class="fa fa fa-angle-double-right" aria-hidden="true"></i></span><a href="{{ post.url }}"> {{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
